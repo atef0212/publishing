@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  position: relative;
+  top: 200px;
+  left: 30%;
+  width: 1000px;
+  height: 300px;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px black solid;
+}
+tr:nth-child(2n) {
+  background-color: rgb(219, 214, 214);
+}
+tfoot tr:nth-child(1) {
+  background-color: rgb(219, 214, 214);
+}
+tr {
+  margin: 10px;
+}
+table td:nth-child(3) {
+  text-align: right;
+}
+tfoot td:nth-child(2) {
+  text-align: right;
+}
